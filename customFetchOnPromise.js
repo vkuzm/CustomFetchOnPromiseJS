@@ -100,5 +100,5 @@ function savePost() {
 	})
 }
 
-//getUsers();
+getUsers();
 savePost();
