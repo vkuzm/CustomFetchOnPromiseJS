@@ -20,10 +20,21 @@ httpRequest("https://jsonplaceholder.typicode.com/users", function callback(resu
 		httpRequest("https://jsonplaceholder.typicode.com/albums", function callback(result) {
 			const getAlbums = result;
 
-			console.log(getUsers);
-			console.log(getPosts);
-			console.log(getAlbums);
+			//console.log(getUsers);
+			//console.log(getPosts);
+			//console.log(getAlbums);
 		});
 
 	});
 });
+
+function addEventListener(action, callback) {
+			var event = {test: "testr"};
+			callback(event);
+}
+
+
+addEventListener("submit", function(e) {
+	console.log(e);
+})
+

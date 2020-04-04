@@ -100,5 +100,7 @@ function savePost() {
 	})
 }
 
-getUsers();
-savePost();
+//getUsers();
+//savePost();
+
+fetch.
