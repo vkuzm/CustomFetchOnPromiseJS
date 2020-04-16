@@ -68,7 +68,7 @@ const fetch = (url, params) => {
 
 // GET
 function getUsers() {
-	fetch("https://jsonplaceholder.typicode.com/users", "GET")
+	fetch("https://jsonplaceholder.typicode.com/users")
 	.then(result => result.json())
 	.then(users => {
 		console.log("Result", users);
@@ -102,5 +102,3 @@ function savePost() {
 
 //getUsers();
 //savePost();
-
-fetch.
